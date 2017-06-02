@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Web Url="~SiteCollection">
+  <Data>
+    <Features>
+      <Feature Scope="Site" ID="8581a8a7-cf16-4770-ac54-260265ddb0b2" Name="SharePoint Server Enterprise Site Collection features" />
+    </Features>
+  </Data>
+</Web>

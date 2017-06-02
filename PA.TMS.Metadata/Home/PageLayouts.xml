@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Web Url="~SiteCollection">
+  <Data>
+    <PageLayout Name="HomeLayout">
+      <ContentType Name="Article Page"/>
+    </PageLayout>
+
+    <PageLayout Name="InnerLayout">
+      <ContentType Name="Article Page"/>
+    </PageLayout>
+
+    <PageLayout Name="HelpLayout">
+      <ContentType Name="Article Page"/>
+    </PageLayout>
+  </Data>
+</Web>

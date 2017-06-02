@@ -1,0 +1,250 @@
+﻿<Web Url="~SiteCollection">
+  <RootWeb>
+    <Data>
+      <Pages>
+        <Page PageLayout="HomeLayout" FileName="HomePage.aspx" WelcomePage="true">
+          <Field Name="Title">Home Page</Field>
+          <AllUsersWebPart ClearZoneID ="g_E8560B5B2D2D4061B8194D1C870EDB60;g_A705C3202FA1402FB45EC2E591841911">
+            <WebPartDefinition
+                WebPartOrder="0"
+                WebPartZoneID="g_C6414072164D4C98BEB19C65FCC93C68"
+                Type="XsltListViewWebPart"
+                ListName="Announcements"
+                ViewName="All items"
+                TitleUrl="#"
+                ViewFields="LinkTitleNoMenu;Author;Modified"
+                ViewQuery="&lt;OrderBy&gt;
+                              &lt;FieldRef Name=&quot;Modified&quot; Ascending=&quot;FALSE&quot; /&gt;
+                            &lt;/OrderBy&gt;
+                            &lt;Where&gt;
+                              &lt;Or&gt;
+                                &lt;IsNull&gt;
+                                  &lt;FieldRef Name=&quot;Expires&quot; /&gt;
+                                &lt;/IsNull&gt;
+                                &lt;Geq&gt;
+                                  &lt;FieldRef Name=&quot;Expires&quot; /&gt;
+                                  &lt;Value Type=&quot;DateTime&quot;&gt;
+                                    &lt;Today /&gt;
+                                  &lt;/Value&gt;
+                                &lt;/Geq&gt;
+                              &lt;/Or&gt;
+                            &lt;/Where&gt;"
+                RowLimit="5"/>
+          </AllUsersWebPart>
+        </Page>
+
+        <Page PageLayout="HelpLayout" FileName="Help.aspx">
+          <Field Name="Title">Help</Field>
+        </Page>
+     
+        <Page PageLayout="InnerLayout" FileName="AddAgreement.aspx">
+          <Field Name="Title">Add Tenancy Agreement</Field>
+          <AllUsersWebPart ClearZoneID ="g_C6414072164D4C98BEB19C65FCC93C68">
+            <WebPartDefinition WebPartOrder="0" WebPartZoneID="g_C6414072164D4C98BEB19C65FCC93C68">
+              <![CDATA[
+                  <webParts>
+                    <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+                      <metaData>
+                        <type name="PA.TMS.UserControls.Webparts.AddTenancyAgreement.AddTenancyAgreement, PA.TMS.UserControls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a4ee017007202945" />
+                        <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+                      </metaData>
+                      <data>
+                        <properties>
+                          <property name="Title" type="string">AddTenancyAgreement</property>
+                          <property name="Description" type="string">AddTenancyAgreement</property>
+                          <property name="ChromeType" type="chrometype">None</property>
+                        </properties>
+                      </data>
+                    </webPart>
+                  </webParts>
+                ]]>
+            </WebPartDefinition>
+          </AllUsersWebPart>
+        </Page>
+
+        <Page PageLayout="InnerLayout" FileName="AddControl.aspx">
+          <Field Name="Title">Add Control</Field>
+        </Page>
+
+        <Page PageLayout="InnerLayout" FileName="AddUnit.aspx">
+          <Field Name="Title">Add New Unit</Field>
+        </Page>
+
+        <Page PageLayout="InnerLayout" FileName="AllAgreements.aspx">
+          <Field Name="Title">AllAgreements</Field>
+          <AllUsersWebPart ClearZoneID ="g_E9CD57B5AA0B44C4867F8A83B1846B53;g_B5904F97007A48DFBFDE220B38F43886">
+            <WebPartDefinition
+                WebPartOrder="0"
+                WebPartZoneID="g_E9CD57B5AA0B44C4867F8A83B1846B53"
+                Type="XsltListViewWebPart"
+                ListName="ReportLinks"
+                ViewName="All Links"
+                TitleUrl="/tms/Lists/ReportLinks/AllItems.aspx"
+                ViewFields="URL"
+                ChromeType="None"
+                ToolbarType="None"
+                RowLimit="20"/>
+
+            <WebPartDefinition WebPartOrder="0" WebPartZoneID="g_B5904F97007A48DFBFDE220B38F43886">
+              <![CDATA[
+                  <webParts>
+                    <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+                      <metaData>
+                        <type name="PA.TMS.UserControls.Webparts.AllAgreementsReport.AllAgreementsReport, PA.TMS.UserControls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a4ee017007202945" />
+                        <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+                      </metaData>
+                      <data>
+                        <properties>
+                          <property name="Title" type="string">AllAgreementsReport</property>
+                          <property name="Description" type="string">AllAgreementsReport</property>
+                          <property name="ChromeType" type="chrometype">None</property>
+                        </properties>
+                      </data>
+                    </webPart>
+                  </webParts>
+                ]]>
+            </WebPartDefinition>
+          </AllUsersWebPart>
+        </Page>
+
+        <Page PageLayout="InnerLayout" FileName="AuditTrail.aspx">
+          <Field Name="Title">Audit Trail</Field>
+        </Page>
+
+        <Page PageLayout="InnerLayout" FileName="CCCreation.aspx">
+          <Field Name="Title">Add Community Club/PA Division</Field>
+        </Page>
+
+        <Page PageLayout="InnerLayout" FileName="CCOverview.aspx">
+          <Field Name="Title">CCOverview</Field>
+        </Page>
+
+        <Page PageLayout="InnerLayout" FileName="CCSearch.aspx">
+          <Field Name="Title">Search Tenants</Field>
+        </Page>
+
+        <Page PageLayout="InnerLayout" FileName="EditCC.aspx">
+          <Field Name="Title">Edit Community Club/PA Division</Field>
+        </Page>
+
+        <Page PageLayout="InnerLayout" FileName="TMSAvgPSF.aspx">
+          <Field Name="Title">Average Income (psf)</Field>
+          <AllUsersWebPart ClearZoneID ="g_E9CD57B5AA0B44C4867F8A83B1846B53;g_B5904F97007A48DFBFDE220B38F43886">
+            <WebPartDefinition
+                WebPartOrder="0"
+                WebPartZoneID="g_E9CD57B5AA0B44C4867F8A83B1846B53"
+                Type="XsltListViewWebPart"
+                ListName="ReportLinks"
+                ViewName="All Links"
+                TitleUrl="/tms/Lists/ReportLinks/AllItems.aspx"
+                ViewFields="URL"
+                ChromeType="None"
+                ToolbarType="None"
+                RowLimit="20"/>
+          </AllUsersWebPart>
+        </Page>
+
+        <Page PageLayout="InnerLayout" FileName="TMSNewTenantedSpaces.aspx">
+          <Field Name="Title">New Tenanted Spaces</Field>
+          <AllUsersWebPart ClearZoneID ="g_E9CD57B5AA0B44C4867F8A83B1846B53;g_B5904F97007A48DFBFDE220B38F43886">
+            <WebPartDefinition
+                WebPartOrder="0"
+                WebPartZoneID="g_E9CD57B5AA0B44C4867F8A83B1846B53"
+                Type="XsltListViewWebPart"
+                ListName="ReportLinks"
+                ViewName="All Links"
+                TitleUrl="/tms/Lists/ReportLinks/AllItems.aspx"
+                ViewFields="URL"
+                ChromeType="None"
+                ToolbarType="None"
+                RowLimit="20"/>
+          </AllUsersWebPart>
+        </Page>
+
+        <Page PageLayout="InnerLayout" FileName="TMSSpacesYlyTermination.aspx">
+          <Field Name="Title">Units with Early Termination</Field>
+          <AllUsersWebPart ClearZoneID ="g_E9CD57B5AA0B44C4867F8A83B1846B53;g_B5904F97007A48DFBFDE220B38F43886">
+            <WebPartDefinition
+                WebPartOrder="0"
+                WebPartZoneID="g_E9CD57B5AA0B44C4867F8A83B1846B53"
+                Type="XsltListViewWebPart"
+                ListName="ReportLinks"
+                ViewName="All Links"
+                TitleUrl="/tms/Lists/ReportLinks/AllItems.aspx"
+                ViewFields="URL"
+                ChromeType="None"
+                ToolbarType="None"
+                RowLimit="20"/>
+          </AllUsersWebPart>
+        </Page>
+
+        <Page PageLayout="InnerLayout" FileName="TMSTotalRentalIncome.aspx">
+          <Field Name="Title">Rental Income Year-wise</Field>
+          <AllUsersWebPart ClearZoneID ="g_E9CD57B5AA0B44C4867F8A83B1846B53;g_B5904F97007A48DFBFDE220B38F43886">
+            <WebPartDefinition
+                WebPartOrder="0"
+                WebPartZoneID="g_E9CD57B5AA0B44C4867F8A83B1846B53"
+                Type="XsltListViewWebPart"
+                ListName="ReportLinks"
+                ViewName="All Links"
+                TitleUrl="/tms/Lists/ReportLinks/AllItems.aspx"
+                ViewFields="URL"
+                ChromeType="None"
+                ToolbarType="None"
+                RowLimit="20"/>
+          </AllUsersWebPart>
+        </Page>
+
+        <Page PageLayout="InnerLayout" FileName="TMSTotalTenantedSpaces.aspx">
+          <Field Name="Title">Total Tenanted Spaces Report</Field>
+          <AllUsersWebPart ClearZoneID ="g_E9CD57B5AA0B44C4867F8A83B1846B53;g_B5904F97007A48DFBFDE220B38F43886">
+            <WebPartDefinition
+                WebPartOrder="0"
+                WebPartZoneID="g_E9CD57B5AA0B44C4867F8A83B1846B53"
+                Type="XsltListViewWebPart"
+                ListName="ReportLinks"
+                ViewName="All Links"
+                TitleUrl="/tms/Lists/ReportLinks/AllItems.aspx"
+                ViewFields="URL"
+                ChromeType="None"
+                ToolbarType="None"
+                RowLimit="20"/>
+          </AllUsersWebPart>
+        </Page>
+
+        <Page PageLayout="InnerLayout" FileName="TMSUnitsAvailable.aspx">
+          <Field Name="Title">Units Available</Field>
+          <AllUsersWebPart ClearZoneID ="g_E9CD57B5AA0B44C4867F8A83B1846B53;g_B5904F97007A48DFBFDE220B38F43886">
+            <WebPartDefinition
+                WebPartOrder="0"
+                WebPartZoneID="g_E9CD57B5AA0B44C4867F8A83B1846B53"
+                Type="XsltListViewWebPart"
+                ListName="ReportLinks"
+                ViewName="All Links"
+                TitleUrl="/tms/Lists/ReportLinks/AllItems.aspx"
+                ViewFields="URL"
+                ChromeType="None"
+                ToolbarType="None"
+                RowLimit="20"/>
+          </AllUsersWebPart>
+        </Page>
+
+        <Page PageLayout="InnerLayout" FileName="UpdateListData.aspx">
+          <Field Name="Title">UpdateListData</Field>
+        </Page>
+
+        <Page PageLayout="InnerLayout" FileName="ViewAgreement.aspx">
+          <Field Name="Title">View Tenancy Agreement</Field>
+        </Page>
+
+        <Page PageLayout="InnerLayout" FileName="ViewCC.aspx">
+          <Field Name="Title">View Community Clubs</Field>
+        </Page>
+
+        <Page PageLayout="InnerLayout" FileName="ViewUnits.aspx">
+          <Field Name="Title">View Units</Field>
+        </Page>
+      </Pages>
+    </Data>
+  </RootWeb>
+</Web>

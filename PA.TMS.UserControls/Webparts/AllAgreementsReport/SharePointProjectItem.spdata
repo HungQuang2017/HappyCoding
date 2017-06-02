@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.VisualWebPart" DefaultFile="AllAgreementsReportUserControl.ascx" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="AllAgreementsReport\" Type="ElementManifest" />
+    <ProjectItemFile Source="AllAgreementsReport.webpart" Target="AllAgreementsReport\" Type="ElementFile" />
+    <ProjectItemFile Source="AllAgreementsReportUserControl.ascx" Target="CONTROLTEMPLATES\PA.TMS.UserControls.Webparts\AllAgreementsReport\" Type="TemplateFile" />
+  </Files>
+  <SafeControls>
+    <SafeControl Name="SafeControlEntry1" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="PA.TMS.UserControls.Webparts.AllAgreementsReport" TypeName="*" IsSafe="true" IsSafeAgainstScript="false" />
+  </SafeControls>
+</ProjectItem>

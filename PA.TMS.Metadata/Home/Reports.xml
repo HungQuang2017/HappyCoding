@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Web Url="~SiteCollection">
+  <Data>
+    <Reports>
+      <Report Name="Visitor Report.aspx" TextTobeUpdated ="PA_LISTIDTOBEUPDATED" ListDataSource="Visitors"/>
+    </Reports>
+  </Data>
+</Web>

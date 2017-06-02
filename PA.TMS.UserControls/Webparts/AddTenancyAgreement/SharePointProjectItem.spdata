@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.VisualWebPart" DefaultFile="AddTenancyAgreementUserControl.ascx" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="AddTenancyAgreement\" Type="ElementManifest" />
+    <ProjectItemFile Source="AddTenancyAgreement.webpart" Target="AddTenancyAgreement\" Type="ElementFile" />
+    <ProjectItemFile Source="AddTenancyAgreementUserControl.ascx" Target="CONTROLTEMPLATES\PA.TMS.UserControls.Webparts\AddTenancyAgreement\" Type="TemplateFile" />
+  </Files>
+  <SafeControls>
+    <SafeControl Name="SafeControlEntry1" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="PA.TMS.UserControls.Webparts.AddTenancyAgreement" TypeName="*" IsSafe="true" IsSafeAgainstScript="false" />
+  </SafeControls>
+</ProjectItem>

@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Web Url="~SiteCollection">
+  <Data>
+    <Security OwnerAlias="SHAREPOINT\system">
+      <Roles>
+      </Roles>
+      <Sites>
+        <Site SubSiteUrl="">
+          <Lists>
+            <List Name="AgreementLicense" RemoveAllGroup="FALSE">
+              <Group Name="Approvers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Designers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Excel Services Viewers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Members" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Owners" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Visitors" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Hierarchy Managers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Restricted Readers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Translation Managers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+            </List>
+            
+            <List Name="Announcements" RemoveAllGroup="FALSE">
+              <Group Name="Approvers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Designers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Excel Services Viewers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Members" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Owners" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Visitors" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Hierarchy Managers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Restricted Readers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Translation Managers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+            </List>
+
+            <List Name="ApplicationSettings" RemoveAllGroup="FALSE">
+              <Group Name="Approvers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Designers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Excel Services Viewers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Members" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Owners" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Visitors" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Hierarchy Managers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Restricted Readers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Translation Managers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+            </List>
+
+            <List Name="BUCode" RemoveAllGroup="FALSE">
+              <Group Name="Approvers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Designers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Excel Services Viewers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Members" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Owners" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Visitors" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Hierarchy Managers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Restricted Readers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Translation Managers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+            </List>
+
+            <List Name="Calendar" RemoveAllGroup="FALSE">
+              <Group Name="Approvers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Designers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Excel Services Viewers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Members" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Owners" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Visitors" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Hierarchy Managers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Restricted Readers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Translation Managers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+            </List>
+
+            <List Name="CommunityClub" RemoveAllGroup="FALSE">
+              <Group Name="Approvers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Designers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Excel Services Viewers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Members" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Owners" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Visitors" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Hierarchy Managers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Restricted Readers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Translation Managers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+            </List>
+
+            <List Name="DistrictList" RemoveAllGroup="FALSE">
+              <Group Name="Approvers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Designers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Excel Services Viewers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Members" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Owners" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Visitors" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Hierarchy Managers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Restricted Readers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Translation Managers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+            </List>
+
+            <List Name="DivisionList" RemoveAllGroup="FALSE">
+              <Group Name="Approvers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Designers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Excel Services Viewers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Members" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Owners" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Visitors" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Hierarchy Managers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Restricted Readers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Translation Managers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+            </List>
+
+            <List Name="Links" RemoveAllGroup="FALSE">
+              <Group Name="Approvers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Designers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Excel Services Viewers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Members" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Owners" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Visitors" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Hierarchy Managers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Restricted Readers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Translation Managers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+            </List>
+
+            <List Name="ReportLinks" RemoveAllGroup="FALSE">
+              <Group Name="Approvers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Designers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Excel Services Viewers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Members" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Owners" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Visitors" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Hierarchy Managers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Restricted Readers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Translation Managers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+            </List>
+
+            <List Name="TenancyAgreement" RemoveAllGroup="FALSE">
+              <Group Name="Approvers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Designers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Excel Services Viewers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Members" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Owners" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Visitors" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Hierarchy Managers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Restricted Readers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Translation Managers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+            </List>
+
+            <List Name="TMSAuditTrail" RemoveAllGroup="FALSE">
+              <Group Name="Approvers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Designers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Excel Services Viewers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Members" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Owners" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Visitors" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Hierarchy Managers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Restricted Readers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Translation Managers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+            </List>
+
+            <List Name="TradeCategory" RemoveAllGroup="FALSE">
+              <Group Name="Approvers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Designers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Excel Services Viewers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Members" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Owners" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Visitors" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Hierarchy Managers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Restricted Readers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Translation Managers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+            </List>
+
+            <List Name="UnitInformation" RemoveAllGroup="FALSE">
+              <Group Name="Approvers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Designers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Excel Services Viewers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Members" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Owners" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Visitors" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Hierarchy Managers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Restricted Readers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Translation Managers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+            </List>
+
+            <!--<List Name="Pages" RemoveAllGroup="FALSE">
+              <Group Name="Approvers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Designers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Excel Services Viewers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Members" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Owners" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Visitors" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Hierarchy Managers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Restricted Readers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Translation Managers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Viewers" Role="No Access"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              
+              <Group Name="Auditorium Manager" Role="View Only"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Board Room" Role="View Only"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="CCRS Action Party" Role="View Only"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Discussion Lounge" Role="View Only"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="GBMS Action Party" Role="View Only"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Members" Role="View Only"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+              <Group Name="Tenancy Management System Members" Role="View Only"  ToClearRoleBinding="TRUE" IsFullName="TRUE"/>
+            </List>-->
+          </Lists>
+        </Site>
+      </Sites>
+    </Security>
+  </Data>
+</Web>

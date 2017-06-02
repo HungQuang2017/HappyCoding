@@ -1,0 +1,122 @@
+﻿#sideNavBox {
+	width: 270px;
+	margin-left: 0px;
+	margin-right: 30px;
+}
+.sideNavBoxTD {
+	width: 270px;
+	margin-left: 0px;
+}
+.ms-stylelabel {
+	padding-right: 20px;
+	padding-left: 5px;
+	vertical-align: top;
+}
+.ms-stylebody {
+	vertical-align: top;
+}
+.col-md-9 {
+	width: 72%;
+}
+.MainBody {
+	padding-top: 10px;
+}
+.ms-core-listMenu-item {
+	display: none;
+}
+.PALeftNav > ul {
+	margin-top: 1em;
+	padding-top: 1em;
+	background-color: #f5f5f5;
+	-webkit-box-shadow: 1px 1px 3px 2px rgba(161,156,161,1);
+	-moz-box-shadow: 1px 1px 3px 2px rgba(161,156,161,1);
+	box-shadow: 1px 1px 3px 2px rgba(161,156,161,1);
+}
+.PALeftNav > ul > li {
+	margin-top: 2px;
+	margin-left: 0;
+	float: none;
+	position: relative;
+	display: inline-block;
+	width: 100%;
+}
+.PALeftNav > ul > li a {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: #333;
+	position: relative;
+	display: block;
+	padding: 10px 15px;
+	text-decoration: none;
+	background-color: transparent;
+	padding-top: 10px;
+}
+.PALeftNav li > a:hover {
+	background: #f5f5f5;
+	color: #e51f26!important;
+}
+/*.PALeftNav > ul > li a > span {
+	
+}*/
+.ms-core-listMenu-verticalBox > ul.root > li.static > ul.static > li > a.selected {
+	background-color: #e51f26;
+	color: #fff;
+	border-radius: 0px;
+	border: 0px;
+	min-height: 30px;
+}
+.ms-core-listMenu-verticalBox li.static > .ms-core-listMenu-item {
+	padding-top: 10px;
+	color: #333;
+	font-family: 'Roboto', sans-serif;
+}
+.ms-core-listMenu-verticalBox li.static > ul.static > li.static > .ms-core-listMenu-item {
+	padding-left: 20px;
+}
+.PALeftNav li.selected > a, .PALeftNav li.selected > a:hover {
+	background-color: inherit;
+	color: white!important;
+	padding-top: 10px;
+}
+.ms-core-listMenu-verticalBox > ul.root > li.static > ul.static > li > a.selected > span > span.ms-hidden {
+	width: 0;
+	height: 0;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-left: 15px solid #e51f26;
+	position: absolute;
+	right: -15px;
+	top: 7px;
+}
+.s4-breadcrumb-arrowcont {
+	display: none;
+}
+a.my-breadcrumbNode, a.my-breadcrumbRootNode {
+	color: #337ab7;
+	text-decoration: none;
+}
+ul.my-breadcrumb ul, ul.my-breadcrumb li {
+	display: inline;
+	padding-left: 5px;
+}
+/* fix separator img alignment */
+.s4-breadcrumb-arrowcont > span.s4-breadcrumb {
+	display: inline !important;
+	overflow: auto !important;
+	position: static !important;
+}
+/* fix separator img alignment */
+.s4-breadcrumb-arrowcont > span.s4-breadcrumb img {
+	position: static !important;
+}
+.propertysheet {
+	width: 100%;
+}
+.ms-core-listMenu-verticalBox li > span.menu-item, .ms-core-listMenu-verticalBox UL.root > LI > .menu-item {
+	padding: 0.5em 0.5em!important;
+	background-color: #318BA9;
+	font-size: 1.2em;
+	font-weight: 700;
+	color: #fff!important;
+	line-height: 1.1;
+}

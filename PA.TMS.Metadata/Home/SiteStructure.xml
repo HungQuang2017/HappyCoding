@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Web Url="~SiteCollection">
+  <Data>
+    <Sites>
+      <Site RootSite="true" SiteUrl="apps/tms" SiteTitle="Tenancy Management System" SiteTemplate="BLANKINTERNET#0" PrimaryLogin="sp\administrator" ContentDatabase="WSS_Content_PA_TMS" />
+    </Sites>
+  </Data>
+</Web>

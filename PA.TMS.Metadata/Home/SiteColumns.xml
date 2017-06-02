@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Web Url="~SiteCollection">
+  <Data>
+    <Fields>
+      <Field  ID="{78507ECD-1942-4716-84F2-CDB579480B3C}"
+              Name="PA_ConfigValue"
+              StaticName="PA_ConfigValue"
+              DisplayName="Value"
+              Type="Text"
+              Required="FALSE"
+              Group="PA Site Columns"
+              Hidden="FALSE" />
+    </Fields>       
+  </Data>
+</Web>

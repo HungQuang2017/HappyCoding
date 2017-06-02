@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Web Url="~SiteCollection">
+  <Data>
+	<Solutions>
+		<Solution Name="PA.TMS.UserControls.wsp" FeatureName="PA.TMS.UserControls" Scope="Site"/>
+		<Solution Name="PA.Webparts.wsp" FeatureName="PA.Webparts" Scope="Site"/>
+	</Solutions>
+   </Data>
+ </Web>

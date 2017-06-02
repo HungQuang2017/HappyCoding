@@ -1,0 +1,52 @@
+﻿/*!
+ * Yamm!3 - Yet another megamenu for Bootstrap 3
+ * http://geedmo.github.com/yamm3
+ * 
+ * @geedmo - Licensed under the MIT license
+ */
+.ms-srch-sb 
+{
+	display: inherit!important;
+}
+.ms-srch-sb-border, .ms-srch-sb-borderFocused
+{
+	border: inherit!important;
+}
+
+.ml-masthead-search input, .ml-masthead-search input:focus
+{
+	width: 90%;
+	padding: 0px!important;
+}
+
+.ms-srch-sb > input
+{
+	height: 30px!important;	 
+}
+.ms-srch-sb > .ms-srch-sb-searchLink
+{
+	height: 30px!important;
+	width: 30px!important;
+	margin-left: -30px!important;
+}
+.ms-srch-sb-searchImg
+{
+	left: -1px!important;
+	top: -35px!important;
+}
+/*! SHARE 7 FELLOW BUTTONS ON THE RIBBON*/
+
+div.ms-cui-TabRowRight
+{
+	display: none!important;
+}
+#s4-ribbonrow
+{
+	display: table-cell;
+	width: 100%;
+}
+#suiteBarRight
+{
+	vertical-align: top;
+	padding-right: 20px;
+}

@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feature xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="ccd3ca20-aa6b-493a-b936-9a39d2bf43c6" description="PA.TMS.UserControlsVB" featureId="ccd3ca20-aa6b-493a-b936-9a39d2bf43c6" imageUrl="" scope="Site" solutionId="00000000-0000-0000-0000-000000000000" title="PA.TMS.UserControlsVB" version="" deploymentPath="PA.TMS.UserControlsVB" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/FeatureModel" />

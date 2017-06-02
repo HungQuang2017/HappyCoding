@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="1ef1a7e3-6724-4934-a6b6-9b88bb542322" solutionId="1ef1a7e3-6724-4934-a6b6-9b88bb542322" resetWebServer="false" sharePointProductVersion="16.0" name="PA.TMS.UserControls" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="e63171d4-f080-425c-a2bf-15674749d258" />
+  </features>
+</package>

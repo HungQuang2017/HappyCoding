@@ -1,0 +1,194 @@
+﻿@charset "UTF-8";
+/* CSS Document */
+
+.uams_right_margin{
+	margin-right: 5px;
+}
+.uams_image_contained img{
+	width:100%;
+}
+.ml-headings-one {
+	font-weight:normal;
+}
+.uams_announcment{
+	height: 187px;
+	display:block;
+	overflow:auto;
+}
+.uams_heading_2 {
+	font-size:1.1em;
+}
+.uams_heading_2 a{
+	text-decoration:none;
+	color:#318ba9;
+}
+.uams_submitted_report table {
+    width: 100%;
+}
+p.uams_heading_2 a:hover{
+	text-decoration:none;
+	color:#e51f26;
+}
+p a:hover{
+	color:#e51f26;
+	text-decoration:none;
+}
+
+.uams_table_title{
+	color:#ccc;
+}
+.uams_table_title th{
+	font-weight:normal;
+}
+.uams_panel_nav{
+	font-size:0.8em;
+}
+.uams_panel_nav a:hover{
+	color:#e51f26;
+	text-decoration:none;
+}
+.uams_panel_active a{
+	font-weight:bold;
+	color:#e51f26;
+}
+ul.uams_panel_nav{
+	padding-left:0px;
+	padding-bottom:10px;
+	border-bottom:1px solid #ccc;
+}
+ul.uams_panel_nav li{
+	display:inline-block;
+	list-item:none;
+	padding-right:10px;
+}
+.uams_timestamp{
+	font-size:0.8em;
+}
+.ml-bordered-container td{
+	padding: 5px;
+}
+.uams_margin_top{
+	margin-top:15px;
+}
+.icon-calendar-selector:before{
+	 content: "\e789";
+    font-size: 19px;
+}
+.uams_overflow{
+	overflow:auto;
+}
+.form-control-mds.label-up.three.twelve--tablet.twelve-phone.col-sm-5 input {
+    width: 90%;
+}
+.uams_full_width{
+	width: 100%;
+}
+.uams_note{
+}
+.uams_select{
+	border-bottom:1px #eee solid;
+}
+select.input-control{
+	-webkit-border-top-right-radius: 0px;
+    -webkit-border-bottom-right-radius: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.uams_new_account_request label{
+	color:#777;
+	font-weight:normal;
+	
+}
+.uams_new_account_request input[type=checkbox], input[type=radio]{
+	padding-right: 15px;
+	line-height: inherit;
+	
+}
+
+.uams_alert_mytask label {
+    color: #777;
+    font-weight: normal;
+}
+.uams_mandatory::after{
+	content:"*";
+	color:red;
+}
+.uams_labels{
+	color:#777;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.uams_db{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eee;
+}
+.uams_alert_mytask div {
+    display: block;
+    overflow: hidden;
+}
+.uams_margin_top_2{
+	margin-top:80px;
+}
+.uams_btn_grey{
+	background-color:#b2b2b2;
+}
+.uams_btn_blue{
+	background-color:#4f92ff;
+}
+.uams_btn_files{
+	border: 0px;
+    border-radius: 0px;
+    padding: 10px;
+}
+.uams_alert_mytask input:disabled{
+	background-color:#eee;
+}
+.uams_alert_mytask select:disabled{
+	border:0px;
+}
+.uams_select_deselect {
+    padding: 2px;
+    background-color: #eee;
+	border-bottom:1px #D6DBE5 solid;
+}
+.uams_select {
+	border-bottom:1px #D6DBE5 solid;
+}
+select.input-control{
+	border:0px;
+}
+select.input-control.uams_select{
+	border:0px;
+}
+.uams_alert_mytask textarea:disabled{
+	background-color:#eee;
+	
+}
+.btn-warning.disabled.focus, .btn-warning.disabled:focus, .btn-warning.disabled:hover, .btn-warning[disabled].focus, .btn-warning[disabled]:focus, .btn-warning[disabled]:hover, fieldset[disabled] .btn-warning.focus, fieldset[disabled] .btn-warning:focus, fieldset[disabled] .btn-warning:hover {
+    background-color: #eee;
+	color:#777;
+}
+.ml-primary-button[disable]:hover {
+    color: #777;
+    background: #e51f26;
+}
+/*table tr:hover{
+	background-color:#e6ffff;
+}
+
+table tr{
+	padding:10px;
+	display:block;
+}*/
+
+}
+.ms-comm-forumContainer{
+	 max-width:520px !important;
+	 width:520px !important;
+
+}
+

@@ -1,0 +1,1070 @@
+/******************************************
+ *form-fields.css  - Begin
+ ******************************************/
+/* Material styles */
+
+.combo-material {
+    border: none;
+}
+
+.combo-material *:invalid {
+    box-shadow: none;;
+}
+
+.combo-material .combo-dropdown {
+    border-radius: 0;
+    z-index: 2;
+    border: none;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+.combo-material .combo-arrow {
+    width: 20px;
+}
+
+.combo-material .combo-arrow:before {
+    line-height: 40px;
+    content: " ";
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #666;
+    display: block;
+    width: 0;
+    height: 0;
+    top: 0;
+    right: 5px;
+    bottom: 0;
+    position: absolute;
+    margin: auto 0;
+}
+
+.combo-material.combo-open .combo-arrow:before {
+    border-top: none;
+    border-bottom: 5px solid #666;
+}
+
+.combo-2x {
+    max-width: 200px;
+}
+
+.combo-small {
+    max-width: 30%;
+}
+
+.combo-medium {
+    max-width: 60%;
+}
+
+.combo-full {
+    max-width: 100%;
+}
+
+.combo-material .text-input::-webkit-input-placeholder {
+    color: #777;
+}
+
+.form-control-mds textarea {
+    margin-bottom: 0px;
+}
+
+/* Multi select drop down */
+
+.form-control-mds .chosen-container-multi {
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.form-control-mds .chosen-container-multi .chosen-choices {
+    border: none;
+    padding: 0.1em 0.5em 0.1em 0.1em;
+    width: 100%;
+    border-radius: 0;
+    -webkit-transition: border 0.2s ease-in;
+    transition: border 0.2s ease-in;
+}
+
+.form-control-mds .chosen-container-multi .chosen-choices li.search-field input[type="text"] {
+    color: #777;
+}
+
+.multi-select-label {
+    left: 0;
+    top: 0.5em;
+    color: #777;
+    -webkit-transition: all 0.4s cubic-bezier(0.55, 0, 0.1, 1);
+    transition: all 0.4s cubic-bezier(0.55, 0, 0.1, 1);
+    margin: 0;
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+.form-control-mds .chosen-container .chosen-choices {
+    border: none;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    border-bottom: 1px #D6DBE5 solid;
+    border-radius: 0;
+    transition: border 0.2s ease-in;
+    -webkit-transition: border 0.2s ease-in;
+}
+
+.form-control-mds .chosen-container-active .chosen-choices {
+    border-color: #777;
+}
+
+.form-control-mds .chosen-container .chosen-choices:after {
+    content: "";
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #666;
+    display: block;
+    width: 0;
+    height: 0;
+    top: 5px;
+    right: 5px;
+    bottom: 0;
+    position: absolute;
+    margin: auto 0;
+}
+
+.form-control-mds .chosen-with-drop .chosen-choices:after {
+    border-top: none;
+    border-bottom: 5px solid #666;
+}
+
+.form-control-mds .chosen-container-multi .chosen-choices {
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0 5px;
+    width: 100%;
+    height: auto !important;
+    height: 1%;
+    background-color: transparent;
+    background-image: none;
+    cursor: text;
+    line-height: 40px;
+}
+
+.chosen-container .chosen-drop {
+    top: 100%;
+    left: -9999px;
+    z-index: 1010;
+    width: 100%;
+    border-top: 0;
+    background: #fff;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.15);
+}
+
+.form-control-mds .chosen-container .chosen-results {
+    position: relative;
+    /* z-index: 1; */
+    top: 100%;
+    left: 0;
+    min-width: 100%;
+    max-width: 300px;
+    max-height: 300px;
+    margin: 0;
+    padding: 0;
+    /* display: none; */
+    overflow-y: auto;
+    background: #fff;
+    border-radius: 0;
+    border: none;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+.form-control-mds .chosen-container .chosen-results li {
+    line-height: 1.5em;
+    list-style: none;
+    padding: 8px 1em;
+    margin: 0;
+    border-bottom: 1px #e3e3e3 solid;
+}
+
+.form-control-mds .chosen-container .chosen-results li.highlighted {
+    background-color: #eee;
+    background-image: none;
+    color: #333;
+}
+
+.form-control-mds .chosen-container-multi .chosen-choices li.search-choice {
+    border: #D38D27 1px solid;
+    background: #eeeeee !important;
+}
+
+.form-control-mds .chosen-container-multi .chosen-choices li.search-choice {
+    background: #EEEEEE;
+    border-radius: 4px;
+    line-height: 1.5em;
+    margin: 3px 10px 3px -5px;
+    padding: 3px 35px 3px 5px;
+    border: 1px solid #aaa;
+    max-width: 100%;
+    border-radius: 3px;
+    background-image: none;
+    color: #333;
+    cursor: default;
+}
+
+.form-control-mds .chosen-container-multi .chosen-choices li.search-choice .search-choice-close {
+    position: absolute;
+    right: 10px;
+    display: block;
+    width: 12px;
+    height: 12px;
+    color: #666;
+    background: none !important;//Overriding choosen.css
+    font-size: 0.8em;
+}
+
+.form-control-mds .chosen-container-multi .chosen-choices li.search-choice .search-choice-close:after {
+    content: "\e75e";
+    font-family: linearicons;
+    font-size: 8px;
+    -webkit-text-stroke: 2px;
+}
+
+.form-control-mds .chosen-container-multi .chosen-choices li.search-choice .search-choice-close:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Ripple */
+
+.mds-ripple, .btn {
+    position: relative;
+    overflow: hidden;
+    outline: none !important; /* remove dotted border */
+}
+
+.mds-ripple:after, .btn:after {
+    content: "";
+    background: rgba(255,255,255,0.3);
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    padding-top: 240%;
+    padding-left: 240%;
+    margin-top: -120%;
+    margin-left: -120%;
+    opacity: 0;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+    pointer-events: none;
+}
+
+.mds-ripple:after, .btn:active:after {
+    padding-top: 0;
+    padding-left: 0;
+    margin-top: 0;
+    margin-left: 0;
+    opacity: 1;
+    -webkit-transition: all 0s;
+    -moz-transition: all 0s;
+    -ms-transition: all 0s;
+    transition: all 0s;
+    pointer-events: none;
+}
+
+/* Input fields */
+
+.input-control, .combo-material .text-input {
+    border-style: solid;
+    border: none;
+    border-bottom: 1px #D6DBE5 solid;
+    padding: 0.1em 0.5em 0.1em 0.1em;
+    width: 100%;
+    border-radius: 0;
+    -webkit-transition: border 0.2s ease-in;
+    transition: border 0.2s ease-in;
+    height: 40px;
+}
+
+.input-control:focus, .combo-material .text-input:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: #D0021B;
+}
+
+.input-control {
+    background: transparent;
+    z-index: 1;
+    position: relative;
+    overflow: auto;
+}
+
+.input-control::-webkit-input-placeholder {
+    color: #777;
+    opacity: 0.5;
+}
+
+.form-control-mds .field-error {
+    font-size: 0.8em;
+    color: #D0021B;
+    display: none;
+}
+
+.combo-selected ~
+.field-error {
+    display: block;
+}
+
+.input-control:focus, .combo-material .text-input:focus, .input-control.invalid, .invalid ~
+.combo-input, .search-field > .invalid {
+    outline: none;
+    box-shadow: none;
+    border-color: #777 !important;
+}
+
+.label-checkbox, .label-radio {
+    display: block;
+    font-weight: normal;
+    color: #777;
+    padding-left: 0;
+}
+
+.checkbox, .radio {
+    margin-top: 0px;
+    height: 2em;
+    color: #666;
+}
+
+.checkbox-inline, .radio-inline {
+    padding-left: 0;
+    display: inline-block;
+}
+
+input[type=checkbox] + label {
+    display: inline-block;
+}
+
+input[type=radio] + label {
+    display: inline-block;
+}
+
+.checkbox label, .radio label {
+    padding-left: 0px;
+    padding-right: 3em
+}
+
+.auto-expand {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 100%;
+    margin-top: 5px;
+}
+
+.form-control-mds {
+    position: relative;
+    margin-top: 1em;
+    margin-bottom: 0.8em;
+    padding: 0;
+}
+
+.form-control-mds .form-field-required {
+    position: absolute;
+    left: -0.8em;
+    top: 0.7em;
+    color: #D0021B;
+    -webkit-user-select: none; /* Chrome/Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+    -o-user-select: none;
+    user-select: none;
+}
+
+.form-control-mds .form-error {
+    margin-top: 1em;
+}
+
+.has-value ~ label, .combo-selected ~
+label.label-control {
+    -webkit-transform: translateY(-1.3em) scale(0.9);
+    -ms-transform: translateY(-1.3em) scale(0.9);
+    transform: translateY(-1.3em) scale(0.9);
+    color: #777;
+}
+
+.chosen-with-children > label.label-control {
+    -webkit-transform: translateY(-2em) scale(0.9);
+    -ms-transform: translateY(-2em) scale(0.9);
+    transform: translateY(-2em) scale(0.9);
+    color: #777;
+}
+
+.input-control:focus ~ label.label-control, .combo-open label.label-control, .chosen-container-active ~
+label.label-control {
+    -webkit-transform: translateY(-1.3em) scale(0.9);
+    -ms-transform: translateY(-1.3em) scale(0.9);
+    transform: translateY(-1.3em) scale(0.9);
+    color: #777;
+}
+
+.chosen-container-active ~
+label.label-control {
+    -webkit-transform: translateY(-2em) scale(0.9);
+    -ms-transform: translateY(-2em) scale(0.9);
+    transform: translateY(-2em) scale(0.9);
+    color: #777;
+}
+
+.label-control {
+    position: absolute;
+    left: 0;
+    top: 0.5em;
+    color: #777;
+    -webkit-transition: all 0.4s cubic-bezier(0.55, 0, 0.1, 1);
+    transition: all 0.4s cubic-bezier(0.55, 0, 0.1, 1);
+    margin: 0;
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.label-up .label-control {
+    color: #777;
+}
+
+.no-csstransforms .label-up .label-control, .no-csstransitions .label-up .label-control {
+    font-size: 12px;
+    color: #D0021B;
+    top: -1.3em;
+}
+
+.no-csstransforms .label-blur .label-control, .no-csstransitions .label-blur .label-control {
+    color: #777;
+}
+
+.no-csstransitions .label-up .input-control, .no-csstransitions .label-up .combo-input {
+    height: 2em;
+}
+
+
+.label-blur .label-control {
+    color: #777;
+}
+
+/* Drop down control */
+
+.combo-select {
+    position: relative;
+    margin-bottom: 0px;
+    border: none;
+    min-width: 100%;
+}
+
+.combo-select .combo-input {
+    margin: 0;
+    margin-bottom: 0;
+    border-style: solid;
+    border: none;
+    border-bottom: 1px #D6DBE5 solid;
+    width: 100%;
+    border-radius: 0;
+    -webkit-transition: border 0.2s ease-in;
+    transition: border 0.2s ease-in;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0px;
+    padding-right: 20px;
+    z-index: 2;
+    background-color: transparent;
+}
+
+.combo-input:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: #D0021B;
+}
+
+.combo-select .combo-arrow {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+    font-size: 12px;
+    color: #999999;
+}
+
+.combo-select .combo-arrow:before {
+    content: "";
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #666;
+    display: block;
+    width: 0;
+    height: 0;
+    top: 0;
+    right: 5px;
+    bottom: 0;
+    position: absolute;
+    margin: auto 0;
+}
+
+.combo-open .combo-arrow {
+    border-color: #51A7E8;
+}
+
+.combo-open .combo-arrow:before {
+    content: "" !important;
+    border-top: none;
+    border-bottom: 5px solid #cccccc;
+}
+
+.combo-focus {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    border-color: #51A7E8;
+}
+
+.combo-focus input {
+    border-color: #51A7E8;
+}
+
+.combo-select select {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-appearance: none;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.combo-select .input-control:focus::-moz-placeholder, .combo-select .input-control:focus::-webkit-input-placeholder, .combo-select .input-control:-ms-input-placeholder {
+    opacity: 0;
+}
+
+
+
+.option-selected {
+    background-color: #eee;
+}
+
+.option-hover {
+    background-color: #eee;
+}
+
+.option-item {
+    cursor: pointer;
+}
+
+.option-group, .option-disabled {
+    background: #eee;
+    cursor: text;
+    color: #333;
+}
+
+.combo-dropdown {
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 0;
+    min-width: 100%;
+    max-height: 300px;
+    margin: 1px;
+    padding: 0;
+    display: none;
+    overflow-y: auto;
+    background: #fff;
+    border: 1px solid #8b8b8b;
+    border-radius: 3px;
+    box-shadow: 0 0px 6px 0px rgba(0, 0, 0, 0.6);
+}
+
+.combo-dropdown li {
+    list-style: none;
+    padding: 8px 1em;
+    margin: 0;
+    border-bottom: 1px #e3e3e3 solid;
+}
+
+.combo-open .combo-dropdown {
+    display: block;
+}
+
+.combo-marker {
+    text-decoration: underline;
+}
+
+.date-picker {
+}
+
+.date-picker:before {
+    content: attr(date-helper-message);
+    color: #CCC;
+    position: absolute;
+    left: 0;
+    display: block;
+    bottom: -1.5em;;
+}
+
+.date-picker.show-error:before {
+    display: none;
+}
+
+.date-picker:after {
+    content: "\e690";
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+    top: 0.5em;
+    font-family: 'Linearicons';
+}
+
+/* Overrid main.css */
+
+.pika-table abbr {
+    border-bottom: none;
+}
+
+.pika-table thead tr {
+    border-bottom: 1px solid #FFE6BE;
+}
+
+.pika-table .is-today .pika-button {
+    color: #33aaff;
+    font-weight: bold;
+    box-shadow: none;
+    border-radius: 3px;
+}
+
+.pika-table .is-selected .pika-button {
+    color: #fff;
+    font-weight: bold;
+    background: #33aaff;
+    box-shadow: none;
+    border-radius: 3px;
+}
+
+.file-upload-title {
+    border: none;
+    border-left: 6px solid #FFB74D;
+    margin: 25px 0px;
+    padding: 0px 14px;
+    height: 26px;
+    vertical-align: middle;
+    color: #333333;
+}
+
+.file-upload-title h3 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.5 rem;
+    color: #333333;
+}
+
+.file-upload-control {
+    background: #CCE4FF;
+    border: 1px solid #006EAB;
+    border-radius: 4px;
+    min-height: 110px;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    position: relative;
+    overflow: hidden;
+    margin: 1em 0;
+}
+
+.file-upload-button {
+    height: 110px;
+    width: 20%;
+    float: left;
+    display: inline;
+    text-align: center;
+    position: absolute;
+    margin-top: 30px;
+}
+
+.file-upload-button i {
+    color: #006EAB;
+    font-size: 2.5em;
+    border: none;
+    width: 1.2em;
+    padding: 3px;
+}
+
+.file-drop-area {
+    width: 80%;
+    margin: 0 20px;
+}
+
+.browse-files {
+    margin: 0 20%;
+    min-width: 100%;
+    display: block;
+    position: relative;
+}
+
+.browse-files input[type="file"] {
+    position: absolute;
+    top: -9999px;
+    visibility: hidden;
+}
+
+.upload-status {
+    display: none;
+    margin: 0 20%;
+    width: 80%;
+    position: relative;
+    padding: 10px 0px;
+    border-radius: 0px;
+    line-height: 2em;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.file-info {
+    max-width: 60%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: inline-block;
+    height: 1.6em;
+    color: #006EAB;
+}
+
+.file-size {
+    color: #999999;
+}
+
+.file-progress {
+    min-width: 25%;
+    max-width: 25%;
+    display: inline-block;
+    margin: 0 0;
+    position: absolute;
+    top: 10px;
+    right: -5px;
+    padding-right: 2em;
+}
+
+.file-progress .progress {
+    width: 100%;
+    height: 15px;
+    margin: 0;
+}
+
+.file-upload-status {
+    position: relative;
+}
+
+.file-progress .progress-wrap {
+    background: #006EAB;
+    margin: 0 0;
+    overflow: hidden;
+    position: relative;
+    max-height: 20px;
+    max-width: 100%;
+}
+
+.file-progress .progress-wrap .progress-bar {
+    background: #ddd;
+    left: 0;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+}
+
+.file-progress .delete-file {
+    position: absolute;
+    right: 5px;
+    top: -8px;
+}
+
+.file-progress .delete-file[disabled] {
+    color: #999999;
+}
+
+.computer-message {
+    padding: 25px 0px 10px 0px;
+}
+
+.phone-message {
+    width: 100%;
+    display: none;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 50%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+.img-zone h2 {
+    margin-top: 0;
+}
+
+.progress, #img-preview {
+    margin-top: 15px;
+}
+
+.accordion__content {
+    background: none !important;
+}
+
+
+
+/***
+ * Drop Down
+ ***/
+
+.ui-dropdown {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    /* Para */
+}
+
+.ui-dropdown > .btn, .ui-dropdown > .link-filter-toggle, .ui-dropdown > .btn-upload, .ui-dropdown > .btn-download {
+    margin-bottom: 0;
+}
+
+.ui-dropdown p {
+    margin-bottom: 10px;
+}
+
+/**
+ * Dropdown container
+ */
+.ui-dropdown-item {
+    position: absolute;
+    left: 0;
+    font-size: 0.8em;
+    text-align: left;
+    top: 100%;
+    z-index: 2;
+    width: 160px;
+    padding-top: 0;
+    display: none;
+    /* Type */
+    /* Form */
+    /* Buttons */
+}
+
+.is-active .ui-dropdown-item {
+    display: block;
+}
+
+.ui-dropdown-item .separator {
+    padding: 0;
+    border-top: 1px #d8d8d8 solid;
+    height: 1px;
+    margin: 8px 0;
+}
+
+.ui-dropdown-item h4 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.ui-dropdown-item form {
+    margin-bottom: 24px;
+    margin-bottom: 1.5 rem;
+}
+
+.ui-dropdown-item .btn, .ui-dropdown-item .link-filter-toggle, .ui-dropdown-item .btn-upload, .ui-dropdown-item .btn-download {
+    font-size: 0.8em;
+}
+
+/**
+ * Dropdown arrow
+ */
+.dropdown-arrow {
+    position: absolute;
+    top: 13px;
+    left: 50%;
+}
+
+.dropdown-arrow:after, .dropdown-arrow:before {
+    bottom: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.dropdown-arrow:after {
+    border-color: transparent;
+    border-bottom-color: #fff;
+    border-width: 10px;
+    margin-left: -10px;
+}
+
+.dropdown-arrow:before {
+    border-color: transparent;
+    border-bottom-color: #bfbfbf;
+    border-width: 11px;
+    margin-left: -11px;
+}
+
+/**
+ * Dropdown inner
+ */
+.dropdown-inner {
+    background: #fff;
+    border: 1px #d8d8d8 solid;
+    padding: 8px 0;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    /* Alert */
+}
+
+.dropdown-inner .delete-form > button, .dropdown-inner > a {
+    padding: 5px 10px;
+    display: block;
+    border-radius: 0;
+    text-decoration: none;
+}
+
+.dropdown-inner > a {
+    color: #006eab;
+    font-weight: 600;
+}
+
+.dropdown-inner > a:hover {
+    background-color: #006eab;
+    color: #fff;
+}
+
+.dropdown-inner > a .icon, .dropdown-inner > a .link-before:before {
+    font-size: 1em;
+    vertical-align: -2px;
+}
+
+.dropdown-inner .ui-alert:last-child {
+    margin-bottom: 0;
+}
+
+/**
+ * Arrow right
+ */
+.on-top .ui-dropdown-item {
+    padding-top: 0;
+    padding-bottom: 12px;
+    bottom: 100%;
+    top: auto;
+}
+
+.on-top .dropdown-arrow {
+    bottom: -10px;
+    top: auto;
+}
+
+.on-top .dropdown-arrow:after {
+    border-color: transparent;
+    border-top-color: #fff;
+    bottom: 3px;
+}
+
+.on-top .dropdown-arrow:before {
+    border-color: transparent;
+    border-top-color: #d8d8d8;
+    bottom: 0px;
+}
+
+/**
+ * On left
+ */
+.on-left .ui-dropdown-item {
+    left: 0;
+}
+
+/**
+ * On right
+ */
+.on-right .ui-dropdown-item {
+    right: 0;
+    left: auto;
+}
+
+.on-right.dropdown-action .ui-dropdown-item {
+    right: -10px;
+}
+
+/**
+ * Dropdown action
+ */
+.dropdown-action .ui-dropdown-item {
+    min-width: 130px;
+    max-width: 150px;
+}
+
+/**
+ * Carets
+ */
+.toggle-dropdown {
+    position: relative;
+    padding-right: 1.3em;
+    display: inline-block;
+    font-weight: normal;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.toggle-dropdown:focus {
+    background-color: transparent;
+}
+
+.toggle-dropdown:after {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid;
+    display: block;
+    width: 0;
+    height: 0;
+    content: " ";
+    top: 0;
+    right: 5px;
+    bottom: 0;
+    position: absolute;
+    margin: auto 0;
+}
+
+.is-active .toggle-dropdown:after {
+    border-top: none;
+    border-bottom: 5px solid;
+}
+
+.label-text {
+    color: #777;
+    font-weight: normal;
+}
+
+
+/******************************************
+ *form-fields.css  - End
+ ******************************************/

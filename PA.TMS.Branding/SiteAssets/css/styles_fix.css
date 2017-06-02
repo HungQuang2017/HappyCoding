@@ -1,0 +1,394 @@
+﻿@charset "UTF-8";
+/* CSS Document */
+
+/*Suitebar*/
+#DeltaSuiteBarRight .ms-welcome-root, 
+#DeltaSuiteBarRight .ms-siteactions-normal{
+	height: 35px;
+}
+#DeltaSuiteBarRight #welcomeMenuBox span.ms-menu-althov.ms-welcome-root, 
+#DeltaSuiteBarRight #welcomeMenuBox span.ms-welcome-hover,
+#DeltaSuiteBarRight #suiteBarButtons .ms-siteactions-normal{
+	padding-top: 3px;
+}
+#DeltaSuiteBarRight #suiteBarButtons{
+	margin-left:-3px;
+}
+/*End Suitebar*/
+
+/*Top nav*/
+.pa-topnavigation-fromroot{
+    max-width: 83%;
+    min-width:78%; 
+    float:left;
+}
+.nav>li>a{
+	/*padding: 8px;*/
+}
+.navbar-default li a{
+	/*font-size:1.12em;*/
+}
+.nav.navbar-nav .dropdown-menu .yamm-content li a{
+	display:block;
+}
+.nav{
+	/*padding-left:15px;*/
+}
+.nav.navbar-nav .dropdown-menu .yamm-content li h3 a{
+	color:#333;
+	font-weight:bold;
+	font-size:1em;
+}
+.arrow-right{
+    /*left: 165px;*/
+}
+.ml-launchpad{
+    z-index: 1000;
+    position:relative;
+}
+.ml-masthead{
+	margin-top:15px;
+}
+.ms-core-menu-box.ms-core-defaultFont.ms-shadow{
+	z-index:10000;
+}
+.ms-siteactions-root > span > a.ms-core-menu-root{
+    width: auto;
+    height: auto;
+}
+div > ul.nav.navbar-nav.right.ml-menu-right li.dropdown{
+	display: none;
+}
+div > ul.nav.navbar-nav.right.ml-menu-right li.dropdown.ml-user-profile{
+	display: block;
+}
+div.navbar.yamm.navbar-default div.container div.navbar-collapse.collapse.in div#pa-apps-pnlRightMenu{
+	/*float: left;*/
+}
+div.navbar.yamm.navbar-default div.container div.navbar-collapse.collapse.in div.pa-topnavigation-fromroot{
+	/*float: none;*/
+}
+.pa-topnavigation-fromroot ul.nav.navbar-nav{
+	width:100%;
+}
+#pa-apps-pnlRightMenu{
+	float:right;
+    padding: 15px 0;
+    height:50px;
+}
+#pa-apps-pnlRightMenu a{
+	color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 1.2em;
+    line-height: 20px;
+}
+#pa-apps-pnlRightMenu a:hover{
+	text-decoration:none;
+	cursor:default;
+}
+
+/*End Top nav*/
+/*Left nav*/
+.PALeftNav > ul > li.ms-navedit-appendarea{
+	width: auto;
+}
+.PALeftNav input.ms-navedit-editButton{
+	height:auto;
+}
+.PALeftNav > ul > li a.ms-heroCommandLink.ms-navedit-addNewLink{
+	width: 80%;
+}
+.PALeftNav.ms-core-listMenu-verticalBox > ul.root > li.static > ul.static > li > a.selected > span > span.ms-hidden{
+	top: 4px;
+}
+.PALeftNav.ms-core-listMenu-verticalBox li.static > .ms-core-listMenu-item{
+	padding-top: 7px;
+    padding-bottom: 7px;
+}
+.PALeftNav.ms-core-listMenu-verticalBox > ul.root > li.static > a.selected {
+	background-color: #e51f26;
+	color: #fff;
+	border-radius: 0px;
+	border: 0px;
+	min-height: 30px;
+}
+.PALeftNav.ms-core-listMenu-verticalBox > ul.root > li.static > a.selected > span > span.ms-hidden {
+	width: 0;
+	height: 0;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-left: 15px solid #e51f26;
+	position: absolute;
+	right: -15px;
+	top: 5px;
+}
+
+.PALeftNav > ul > li table.ms-navedit-titleBoxContainer  td.ms-navedit-linkDialogIcon > a.ms-navedit-linkDialogIcon,
+.PALeftNav table.ms-core-listMenuEdit td.ms-navedit-deletelinkCell > a.ms-navedit-deletelink{
+	padding-top: 0;
+}
+#DeltaPlaceHolderLeftNavBar > div.s4-ql.ms-ql-additionaltopsection > ul.root.ms-core-listMenu-root ul > li.static.selected{
+	position: relative;
+}
+#DeltaPlaceHolderLeftNavBar > div.s4-ql.ms-ql-additionaltopsection.ms-core-listMenu-verticalBox > ul.root > li.static > ul.static > li > a.selected{
+	line-height: 1.8em;
+}
+
+.ms-core-listMenu-verticalBox > ul.root > li.static > ul.static > li > a.selected > span > span.ms-hidden,
+.PALeftNav.ms-core-listMenu-verticalBox > ul.root > li.static > a.selected > span > span.ms-hidden{
+	/*top: 14%;*/
+}
+.ms-core-listMenu-verticalBox > ul.root > li.static > ul.static > li > a.selected{
+	padding-top: 0.5em !important;
+	padding-bottom: 0.5em !important;
+}
+
+/*End Left nav*/
+/*Logo*/
+.pa-logo-container-full{
+    /*float:left;*/
+}
+/*End Logo*/
+
+/*Webpart topright checkbox*/
+.ms-webpart-chrome-title .ms-webpart-controlBox a.ms-webpart-menuLink {
+	margin-bottom: -5px;
+    margin-left: -5px;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+/*End Webpart topright checkbox*/
+
+/*Home Page*/
+.pa-apps-homepage-container .js-webpart-titleCell > h2.ms-webpart-titleText a:hover{
+	cursor:text;
+}
+.pa-apps-homepage-container .js-webpart-titleCell > h2.ms-webpart-titleText a:active,
+.pa-apps-homepage-container .js-webpart-titleCell > h2.ms-webpart-titleText a:focus{
+	text-decoration: none;
+}
+.pa-apps-homepage-container .js-webpart-titleCell > h2.ms-webpart-titleText nobr span:first-child{
+	font-size: 1.3em;	
+	font-weight: normal;
+	font-family: 'Raleway', sans-serif;
+    color: #e51f26;
+    text-transform: uppercase;
+    margin-top: 1.5em;
+}
+.pa-apps-homepage-container .js-webpart-titleCell > h2.ms-webpart-titleText > a:hover{
+	text-decoration: none;
+}
+.pa-apps-homepage-container .ms-webpartzone-cell .ms-webpart-chrome-fullWidth.ms-webpart-chrome > .ms-wpContentDivSpace{
+	border: 1px solid #ddd;
+    padding: 1em;
+    box-shadow: 1px 1px 3px 2px rgba(161,156,161,1);
+    -webkit-box-shadow: 1px 1px 3px 2px rgba(161,156,161,1);
+    -moz-box-shadow: 1px 1px 3px 2px rgba(161,156,161,1);
+}
+
+.pa-apps-homepage-container .ms-webpart-chrome-title .ms-webpart-controlBox a.ms-webpart-menuLink {
+	margin-bottom: -43px;
+}
+
+a.pa-home-newrequest-btn:hover {
+    text-decoration: none;
+    color: #fbac00;
+}
+a.pa-home-newrequest-btn {
+    color: #fff;
+}
+
+.pa-apps-homepage-container .pa-apps-homepage-top-right-zone table.ms-listviewtable td.ms-cellstyle span.ms-noWrap{
+	white-space: normal;
+}
+.pa-apps-homepage-container .pa-apps-homepage-top-left-zone, 
+.pa-apps-homepage-container .pa-apps-homepage-mid-left-zone,
+.pa-apps-homepage-container .pa-apps-homepage-ce-mid-left-zone{
+    padding-left: 0;
+}
+.pa-apps-homepage-container .pa-apps-homepage-top-right-zone, 
+.pa-apps-homepage-container .pa-apps-homepage-mid-right-zone,
+.pa-apps-homepage-container .pa-apps-homepage-ce-mid-right-zone{
+    padding-right: 0;
+}
+
+/*Excel Templates*/
+.pa-apps-homepage-container #ms-dnd-dropbox{
+}
+#mainbody.col-md-12,
+.col-md-4.pa-apps-homepage-top-right-zone{
+	position:static;
+}
+/* End Excel Templates*/
+
+
+.pa-apps-homepage-container .pa-apps-homepage-top-left-zone{
+	padding-left:0;
+}
+
+/*End Home Page*/
+/*Model Dialog*/
+.ms-dlgBorder .ms-dlgTitle > .ms-dlgTitleBtns{
+	margin-right: 0;
+}
+/*End Model Dialog*/
+/*Search box in lists/libraries*/
+.ms-InlineSearch-Outline-Baseline, .ms-inlineSearch-searchImgSpanBase{
+	-webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.ms-inlineSearch-searchImgSpanBase{
+	margin-top:-3px;
+}
+/*End Search box in lists/libraries*/
+/*Content Editor Ribbon bar Format text*/
+#RibbonContainer *{
+	-webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+/*End Content Editor Ribbon bar Format text*/
+
+/*breadcrumb*/
+.pa-apps-breadcrumbs{
+	padding-left: 10px;
+}
+.pa-apps-breadcrumbs a.s4-breadcrumbNode, 
+.pa-apps-breadcrumbs a.s4-breadcrumbRootNode,
+.pa-apps-breadcrumbs a.my-breadcrumbNode,
+.pa-apps-breadcrumbs a.my-breadcrumbRootNode {
+	color: #337ab7;
+	text-decoration: none;
+}
+.pa-apps-breadcrumbs ul.s4-breadcrumb ul, .pa-apps-breadcrumbs ul.s4-breadcrumb li, 
+.pa-apps-breadcrumbs ul.ms-breadcrumb ul, .pa-apps-breadcrumbs ul.ms-breadcrumb li,
+.pa-apps-breadcrumbs ul.my-breadcrumb ul, .pa-apps-breadcrumbs ul.my-breadcrumb li
+
+{
+	display: inline;
+	padding-left: 5px;
+}
+
+.pa-apps-breadcrumbs ul.s4-breadcrumbNode:before, .pa-apps-breadcrumbs ul.s4-breadcrumbRootNode:before, 
+.pa-apps-breadcrumbs ul.ms-breadcrumbRootNode:before, .pa-apps-breadcrumbs ul.ms-breadcrumbNode:before,  {
+    content: ">";
+}
+.pa-apps-breadcrumbs .s4-breadcrumb-arrowcont{
+	display:none;
+}
+/*End breadcrumb*/
+
+
+/*Custom aspx pages*/
+.pa-apps-customaspx-page-container td.pa-apps-customaspx-page-report-container table{
+	border-collapse: separate; 
+	border-spacing: 5px;
+}
+.pa-apps-customaspx-page-container td.pa-apps-customaspx-page-report-container h2.ms-webpart-titleText{
+	margin-top: 0;
+}
+.pa-apps-customaspx-page-container td.pa-apps-customaspx-page-report-container hr{
+	margin-top: 7px;
+	margin-bottom:7px;
+}
+.pa-apps-customaspx-page-container td.pa-apps-customaspx-page-report-container td > a.ms-toolbar > img{
+	margin-top: -5px;
+}
+/*End Custom aspx pages*/
+
+/*Paging back next button*/
+td#bottomPagingCellWPQ2 table td#pagingWPQ2prev > a.ms-commandLink.ms-promlink-button.ms-promlink-button-enabled,
+td#bottomPagingCellWPQ2 table td#pagingWPQ2next > a.ms-commandLink.ms-promlink-button.ms-promlink-button-enabled{
+	-webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+/*End Paging back next button*/
+/*Top nav responsive*/
+div#main{
+	clear:both;
+}
+/*End Top nav responsive*/
+/*Calendar */
+#sideNavBox #DeltaPlaceHolderLeftNavBar div#DatePickerDiv div.ms-quickLaunch table.ms-picker-table{
+	border-collapse:separate;
+}
+/*End Calendar */
+/*NotificationArea*/
+#notificationArea{
+	z-index:10000;
+}
+/*End notificationArea*/
+/*Main body*/
+#mainbody.pa-systemmasterpage-noleftnav{
+    padding-left: 3px;
+    padding-right: 3px;
+}
+/*End Main body*/
+/*Custom webpart headings*/
+.ml-headings-one{
+	margin-top: 1em;
+}
+/*End Custom webpart headings*/
+/*About Us & Contact Us*/
+.ml-masthead-links.pa-apps-masthead-links{
+    display: none;
+}
+/*End About Us & Contact Us*/
+/*Radio, checkbox, label*/
+.uams_new_account_request input[type=checkbox], input[type=radio]{
+	padding-right: 2px;
+}
+input[type=checkbox], input[type=radio]{
+    margin: 3px 3px 3px 4px;
+}
+label{
+	margin-bottom:0;
+}
+/*End Radio, checkbox, label*/
+
+/*Search page*/
+.pa_apps_search_osssearchresults_page #sideNavBoxTD{
+	display:table-cell !important;
+}
+.pa_apps_search_osssearchresults_page .ms-srch-sb-border{
+	border: 1px solid #ababab !important;
+}
+.pa_apps_search_osssearchresults_page .ms-srch-sb-borderFocused{
+	border: 1px solid #2a8dd4 !important;
+}
+.pa_apps_search_osssearchresults_page .ms-srch-item{
+	width:550px;
+}
+.pa_apps_search_osssearchresults_page .ms-srch-item-previewContainer,
+.pa_apps_search_osssearchresults_page #PageLinkNext,
+.pa_apps_search_osssearchresults_page #PageLinkPrev{
+	-webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.pa_apps_search_osssearchresults_page .ms-srch-ellipsis{
+	margin-top: 0;
+	margin-bottom:0;
+}
+/*End Search page*/
+/*Inner page layout*/
+.pa-innerlayout-container .pa-apps-innerpage-central-left-zone #js-listviewthead-WPQ2{
+	display:none;
+	
+}
+.pa-innerlayout-container .pa-apps-innerpage-central-left-zone .ms-itmHoverEnabled:hover > *  {
+	background-color: transparent;
+}
+.pa-innerlayout-container .pa-apps-innerpage-central-left-zone div.s4-itm-cbx.s4-itm-imgCbx .ms-selectitem-icon{
+	display: none;
+}
+.pa-innerlayout-container .pa-apps-innerpage-central-left-zone span.s4-itm-imgCbx-inner{
+	background: url(../images/pa_linkicon.jpg) no-repeat;
+    background-position: center;
+    margin-right: -26px;
+}
+.pa-innerlayout-container .pa-apps-innerpage-central-left-zone .ms-vb-imgFirstCell.ms-vb-imgFirstCell.ms-vb-imgFirstCell{
+	vertical-align: top;
+    padding-top: 4px;
+}
+/*End Inner page layout*/
+

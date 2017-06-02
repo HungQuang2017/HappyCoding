@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A1B0B89D-D347-422E-835B-581222A51A8A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PA.TMS.Branding</RootNamespace>
+    <AssemblyName>PA.TMS.Branding</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MasterPages\pa.tms.intranet.master">
+      <SubType>ASPXCodeBehind</SubType>
+    </None>
+    <None Include="MasterPages\pa.tms.systemnoleftnav.master">
+      <SubType>ASPXCodeBehind</SubType>
+    </None>
+    <None Include="SiteAssets\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="SiteAssets\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="SiteAssets\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="SiteAssets\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="SiteAssets\css\styles.css.bak" />
+    <None Include="SiteAssets\fonts\fontawesome-webfont.eot" />
+    <None Include="SiteAssets\fonts\fontawesome-webfont.ttf" />
+    <None Include="SiteAssets\fonts\fontawesome-webfont.woff" />
+    <None Include="SiteAssets\fonts\fontawesome-webfont.woff2" />
+    <None Include="SiteAssets\fonts\FontAwesome.otf" />
+    <None Include="SiteAssets\fonts\Linearicons.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PageLayouts\HelpLayout.aspx" />
+    <Content Include="PageLayouts\HomeLayout.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="PageLayouts\InnerLayout.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="SiteAssets\bootstrap\css\bootstrap.min.css" />
+    <Content Include="SiteAssets\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="SiteAssets\bootstrap\js\bootstrap.min.js" />
+    <Content Include="SiteAssets\css\apps_customs.css" />
+    <Content Include="SiteAssets\css\chosen.min.css" />
+    <Content Include="SiteAssets\css\Common.css" />
+    <Content Include="SiteAssets\css\datepicker3.css" />
+    <Content Include="SiteAssets\css\font-awesome.min.css" />
+    <Content Include="SiteAssets\css\form.css" />
+    <Content Include="SiteAssets\css\linear-icons.css" />
+    <Content Include="SiteAssets\css\PAIntranetSystem.css" />
+    <Content Include="SiteAssets\css\Raleway.css" />
+    <Content Include="SiteAssets\css\Roboto.css" />
+    <Content Include="SiteAssets\css\styles.css" />
+    <Content Include="SiteAssets\css\styles_fix.css" />
+    <Content Include="SiteAssets\css\styles_intra.css" />
+    <Content Include="SiteAssets\css\yamm.css" />
+    <Content Include="SiteAssets\fonts\fontawesome-webfont.svg" />
+    <Content Include="SiteAssets\images\40 movie tickets to be given away - content page.jpg" />
+    <Content Include="SiteAssets\images\40 movie tickets to be given away.jpg" />
+    <Content Include="SiteAssets\images\billboard1.jpg" />
+    <Content Include="SiteAssets\images\billboard2.jpg" />
+    <Content Include="SiteAssets\images\billboard3.jpg" />
+    <Content Include="SiteAssets\images\billboard4.jpg" />
+    <Content Include="SiteAssets\images\billboard5.jpg" />
+    <Content Include="SiteAssets\images\calendar-128.png" />
+    <Content Include="SiteAssets\images\gladys rim - staff directory.jpg" />
+    <Content Include="SiteAssets\images\guitar.jpg" />
+    <Content Include="SiteAssets\images\image1.jpg" />
+    <Content Include="SiteAssets\images\image2.jpg" />
+    <Content Include="SiteAssets\images\image3.jpg" />
+    <Content Include="SiteAssets\images\image4.jpg" />
+    <Content Include="SiteAssets\images\image5.jpg" />
+    <Content Include="SiteAssets\images\laptop.jpg" />
+    <Content Include="SiteAssets\images\lenna paprocki - staff directory.jpg" />
+    <Content Include="SiteAssets\images\logo.jpg" />
+    <Content Include="SiteAssets\images\media 1 - corporate comm &amp; finance page.jpg" />
+    <Content Include="SiteAssets\images\media 2 - corporate comm &amp; finance page.jpg" />
+    <Content Include="SiteAssets\images\media 3 - corporate comm &amp; finance page.jpg" />
+    <Content Include="SiteAssets\images\media 4 - corporate comm &amp; finance page.jpg" />
+    <Content Include="SiteAssets\images\meetkats.jpg" />
+    <Content Include="SiteAssets\images\palogo.jpg" />
+    <Content Include="SiteAssets\images\pa_linkicon.jpg" />
+    <Content Include="SiteAssets\images\rosella lim - staff directory.jpg" />
+    <Content Include="SiteAssets\images\seats.jpg" />
+    <Content Include="SiteAssets\images\slider.jpg" />
+    <Content Include="SiteAssets\images\socialwall1.jpg" />
+    <Content Include="SiteAssets\images\socialwall2.jpg" />
+    <Content Include="SiteAssets\images\socialwall3.jpg" />
+    <Content Include="SiteAssets\images\socialwall4.jpg" />
+    <Content Include="SiteAssets\images\socialwall5.jpg" />
+    <Content Include="SiteAssets\images\spreadsheetexample.jpg" />
+    <Content Include="SiteAssets\images\staff1.jpg" />
+    <Content Include="SiteAssets\images\staff2.jpg" />
+    <Content Include="SiteAssets\images\staff3.jpg" />
+    <Content Include="SiteAssets\images\staff4.jpg" />
+    <Content Include="SiteAssets\images\VIMS_Logo.jpg" />
+    <Content Include="SiteAssets\js\apps_customs.js" />
+    <Content Include="SiteAssets\js\bootstrap-datepicker.js" />
+    <Content Include="SiteAssets\js\chosen.jquery.js" />
+    <Content Include="SiteAssets\js\chosen.jquery.min.js" />
+    <Content Include="SiteAssets\js\jquery-1.11.1.min.js" />
+    <Content Include="SiteAssets\js\jquery-ui-1.10.4.min.js" />
+    <Content Include="SiteAssets\js\jquery.combo.select.js" />
+    <Content Include="SiteAssets\js\jquery.combo.selectnew.js" />
+    <Content Include="SiteAssets\js\main.js" />
+    <Content Include="SiteAssets\js\SP15ModalDialog.js" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
